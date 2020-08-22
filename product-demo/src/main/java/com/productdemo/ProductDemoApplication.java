@@ -1,0 +1,16 @@
+package com.productdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class ProductDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ProductDemoApplication.class, args);
+        System.out.println("消费者启动成功,端口号：8011");
+    }
+
+}

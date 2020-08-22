@@ -1,0 +1,31 @@
+spring:
+  #配置文件名，后缀
+  profiles:
+    active: application
+  #注册到nacos显示的名称
+  application:
+    name: consumer
+
+
+  # springCloud
+  cloud:
+    # 配置中心
+    nacos:
+      # 服务配置，这个不加会翻车
+      config:
+        server-addr: 127.0.0.1:8848
+        #命名空间
+        namespace: f99336cc-6faa-43af-8d44-d7c43146412b
+        #GROUP
+        group: TEXT_GROUP
+        #配置文件 尾部
+        file-extension: yaml
+        #配置文件名，前缀 假如application配置文件放在nacos 此处一定和前缀一样！
+        prefix: consumer
+      # 服务发现，这个不加也会翻车
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: f99336cc-6faa-43af-8d44-d7c43146412b
+
+
+
