@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @title: Indexontroller
  * @description:
  * @date: 2020/8/22
- * @author: zwh
+ * @author: Stuil
  * @copyright: Copyright (c) 2020
  * @version:
  */
