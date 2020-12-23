@@ -15,7 +15,7 @@ spring:
       config:
         server-addr: 127.0.0.1:8848
         #命名空间
-        namespace: f99336cc-6faa-43af-8d44-d7c43146412b
+        namespace: 634320b8-a2e4-4bc1-9b67-b676af9c47a8
         #GROUP
         group: TEXT_GROUP
         #配置文件 尾部
@@ -25,7 +25,7 @@ spring:
       # 服务发现，这个不加也会翻车
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: f99336cc-6faa-43af-8d44-d7c43146412b
+        namespace: 634320b8-a2e4-4bc1-9b67-b676af9c47a8
 
 
 
