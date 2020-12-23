@@ -10,4 +10,5 @@ package com.consumerdemo.rabbitMq;
  */
 
 public class TextRabbitMq {
+
 }
